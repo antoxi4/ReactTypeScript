@@ -1,10 +1,11 @@
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
-import * as React from "react";
+import * as React from "react"
 
 import Home from 'pages/home'
 
 const routes = [
-  { path: '/',
+  {
+    path: '/',
     component: Home
   }
 ]
@@ -29,4 +30,4 @@ class Routes extends React.Component<{}> {
   }
 }
 
-export default Routes;
+export default Routes
