@@ -10,8 +10,6 @@ server_address = '0.0.0.0'
 
 
 def create_app(*, loop: asyncio.AbstractEventLoop=None):
-
-    # Use supplied event loop or default one
     loop = loop or asyncio.get_event_loop()
 
     app = web.Application(loop=loop)

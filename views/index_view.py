@@ -1,9 +1,4 @@
 from aiohttp import web
-import os
-import sys
-from pathlib import Path
-
-
 
 async def index(request):
     with open('./app/dist/index.html') as f:
