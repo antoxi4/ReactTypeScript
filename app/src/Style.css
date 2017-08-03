@@ -1,0 +1,14 @@
+body {
+  background-color: #E0E0E0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 12pt;
+  margin: 0px;
+  padding: 0;
+  border: 0;
+}
+.root {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}

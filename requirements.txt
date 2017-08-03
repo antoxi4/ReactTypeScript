@@ -1,0 +1,6 @@
+aiohttp==2.0.5
+aiohttp-wsgi==0.6.6
+numpy
+asyncpg==0.9.0
+requests==2.13.0
+aiohttp-cors==0.5.2
