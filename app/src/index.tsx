@@ -4,7 +4,7 @@ import * as stores from 'stores'
 import { render } from 'react-dom'
 import { Provider } from 'mobx-react'
 
-import 'Style.css'
+import 'style.css'
 import '../public/favicon.ico'
 
 render(
